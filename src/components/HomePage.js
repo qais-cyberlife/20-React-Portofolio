@@ -1,16 +1,14 @@
 import React from "react";
-import Nav from "./Nav";
+import Nav from "./Navbar";
 
 
-function Header() {
+function HomePage() {
     return (
 
         <header class="header">
             <h1 id="name">Kais Al Balkhi </h1>
-            <h1><span> Digital Marketing Specialist and Web Developer </span></h1>
-            <div class="nav">
-                <Nav />
-            </div>
+            <h1><span> Digital Marketing Specialist and Full Stack Web Developer</span></h1>
+
 
             <img src="./badass-pic.jpg" alt=""
                 height="500"
@@ -21,4 +19,4 @@ function Header() {
     );
 };
 
-export default Header;
+export default HomePage;
