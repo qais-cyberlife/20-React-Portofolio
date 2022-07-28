@@ -1,10 +1,37 @@
-# Getting Started with Create React App
+# 20-Kais' React Porotofolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project was Created on the React App and by Utilizing diffrent libraries to create the footer, contact form, and navbar.
 
-## Available Scripts
+This is what the app looks like.
 
-In the project directory, you can run:
+<img width="1266"  src="./public/images/screenshot.jpg">
+
+
+<br>
+<br>
+
+I have used the following youtube videos as guidance to create this project and to learn more about how to use react in a proper way. I have 
+left comments throught out the code that explains the functionality of each component.
+
+1. How to Create the Navbar or Without Routing (Web Dev Simplified): <br>
+https://www.youtube.com/watch?v=SLfhMt5OUPI&t=903s
+
+2. The Cards and Contact Page (webdecoded):   <br>
+https://www.youtube.com/watch?v=hYv6BM2fWd8&t=3821s 
+
+3. Creating a Social Follow Component in React (James Q Quick): <br>
+https://www.youtube.com/watch?v=58RRl1JTJvY
+
+
+It Was Built using:
+
+- Front-end library: React
+- CSS framework: React-bootstrap
+- CSS animations library: Animate.css
+- Icons: @fort/ @fontawesome
+
+## How to Start the App:
+
 
 ### `npm start`
 
@@ -29,42 +56,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Sources:
+(the youtube channels metioned above)
+- - -
+© 2022 Qais Al Balkhi / Cyberlife Technologies LTD, a 2U. All Rights Reserved.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

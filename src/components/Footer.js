@@ -1,37 +1,32 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// Imports the SVG icons of LinkedIn, GitHub, and Twitter. They will be colored in the Footer CSS Section.
 import {
-  faYoutube,
-  faFacebook,
+  faLinkedin,
+  faGithub,
   faTwitter,
-  faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 import '../css/styles.css';
 
+// Returns a footer and feedsin the icons
 function Footer() {
   return (
     <div className="social-container">
-      <h3>@LearnBuildTeach</h3>
       <a
-        href="https://www.youtube.com/c/jamesqquick"
-        className="youtube social"
+        href="https://www.linkedin.com/in/kais-al-balkhi-481597235/"
+        className="linkedin social"
       >
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a
-        href="https://www.facebook.com/learnbuildteach/"
-        className="facebook social"
+        href="https://github.com/qais-cyberlife"
+        className="github social"
       >
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
+        <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
-      <a href="https://www.twitter.com/jamesqquick" className="twitter social">
+      <a href="https://twitter.com/QaisAlbalkhi2" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
-      </a>
-      <a
-        href="https://www.instagram.com/learnbuildteach"
-        className="instagram social"
-      >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
     </div>
   );

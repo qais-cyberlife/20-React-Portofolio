@@ -1,6 +1,7 @@
 import { Col } from "react-bootstrap";
 import React from "react";
 
+// This is the template of individual project cards
 function ProjectCard ({ title, description, imgUrl })  {
     return (
       <Col size={12} sm={6} md={4}>

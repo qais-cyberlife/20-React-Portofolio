@@ -8,9 +8,10 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
-
 import { Route, Routes, ROutes } from "react-router-dom";
 
+
+// Imports the components and returns a compiled JSX of all of them. the Routes/ Route will change the url routes.
 function App() {
   
   return (
@@ -19,7 +20,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />}/>
-        <Route path="/about-me" element={<AboutMe />}/>
         <Route path="/portofolio" element={<Portofolio />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/resume" element={<Resume />}/>

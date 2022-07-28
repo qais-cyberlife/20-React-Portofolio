@@ -1,4 +1,4 @@
-/* Footer CSS */
+/* Nav Bar CSS */
 *{
     box-sizing: border-box;
 }
@@ -7,6 +7,9 @@ body {
     margin: 0;
 }
 
+.nav-bar{
+margin: 0;
+}
 .nav{
     background-color: black;
     color: white;
@@ -16,6 +19,7 @@ body {
     gap: 2rem;
     padding: 0 1rem;
     border-radius: 0;
+    margin: 0px;
 }
 
 .site-title{
@@ -40,6 +44,11 @@ body {
     padding: .25rem;
 }
 
+.cyberlife-logo{
+  max-height: 50px;
+  max-width: 50px;
+}
+
 .nav li.active{
     background-color: #555;
     border-radius: 0;
@@ -55,34 +64,35 @@ body {
     text-align: center;
   }
   
-  /* SOCIAL STUFF */
+  /* Footer */
   .social-container {
     background: #eee;
-    padding: 25px 50px;
+    padding: 25px 50px; 
+     align-items: center;
   }
   a.social {
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
   }
   
   a.social:hover {
     transform: translateY(-2px);
   }
   
-  a.youtube {
-    color: #eb3223;
+  a.linkedin {
+    color: #0a66c2;
   }
   
-  a.facebook {
-    color: #4968ad;
+  a.github {
+    color: #24292f;
   }
   
   a.twitter {
     color: #49a1eb;
-  }
-  
-  a.instagram {
-    color: black;
   }
   

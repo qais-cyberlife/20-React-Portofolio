@@ -1,13 +1,12 @@
 import React from "react";
 
+// This is the resume Section. The user click at the link and will be directed to my google Drive to download the Resume as a pdf file.
 
 function Resume() {
     return (
         <>
-            <div id="about-me"><h2 id="#About_Me">About Me</h2>
-
-                <h3>I am a Digital Marketing Specialist and a Web Developer. I help businesses grow through my C.O.D. System</h3>
-
+            <div>
+                <a class="resume-link" href="https://drive.google.com/file/d/1PV7wfPnf7a0gDkZ0NpZ3-Yq2vmIdjiAq/view">Click at the link to Download the Resume</a>
             </div>
         </>
     );
