@@ -1,7 +1,8 @@
 import { Nav, Col, Container, Tab, Row} from "react-bootstrap"
 import React from "react";
-import ProjectCard  from "./ProjectCard";
+import { ProjectCard }  from "./ProjectCard";
 import TrackVisibility from 'react-on-screen';
+import 'animate.css';
 
 
 function Projects() {
@@ -10,32 +11,32 @@ function Projects() {
         {
             title: "title1",
             description: "description1",
-            imgUrl: "../images/badass-pic.jpg"
+            imgUrl: "/images/badass-pic.jpg"
         },
         {
             title: "title2",
             description: "description2",
-            imgUrl: "./images/cyberlife-logo.jpg"
+            imgUrl: "/images/cyberlife-logo.jpg"
         },
         {
             title: "title3",
             description: "description3",
-            imgUrl: "./images/github-icon.jpg"
+            imgUrl: "/images/github-icon.jpg"
         },
         {
             title: "title4",
             description: "description4",
-            imgUrl: "./images/linkedin-icon.png"
+            imgUrl: "/images/linkedin-icon.png"
         },
         {
             title: "title5",
             description: "description5",
-            imgUrl: "./images/sodsnow.jpg"
+            imgUrl: "/images/sodsnow.jpg"
         },
         {
             title: "title6",
             description: "description6",
-            imgUrl: "./images/stackoverflow-icon.jpg"
+            imgUrl: "/images/stackoverflow-icon.jpg"
         },
     ]
     return (

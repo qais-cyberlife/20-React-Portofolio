@@ -10,7 +10,7 @@ function HomePage() {
             <h1><span> Digital Marketing Specialist and Full Stack Web Developer</span></h1>
 
 
-            <img src="./badass-pic.jpg" alt=""
+            <img src="/images/badass-pic.jpg" alt=""
                 height="500"
                 width="500"
             />

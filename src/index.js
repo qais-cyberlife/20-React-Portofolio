@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 
 import "./css/styles.css"
 import './css/index.css';
+import './css/App.css';
 import App from './App';
 
 import reportWebVitals from './reportWebVitals';

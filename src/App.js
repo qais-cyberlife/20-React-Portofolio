@@ -1,5 +1,6 @@
 import './css/App.css';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import Portofolio from './components/Projects';
